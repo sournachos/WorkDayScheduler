@@ -4,7 +4,7 @@ body {
     line-height: 1;
   }
   
-  textarea {
+   textarea {
     background: transparent;
     border: none;
     resize: none;
@@ -21,7 +21,7 @@ body {
     border-bottom: 10px solid black;
   }
   
-  .description {
+   .description {
     white-space: pre-wrap;
   }
   
@@ -30,12 +30,12 @@ body {
     border-radius: 15px;
   }
   
-  .row {
+  /*.row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
   }
-  
+  */
   .hour {
     background-color: #ffffff;
     color: #000000;
@@ -56,7 +56,7 @@ body {
     background-color: #77dd77;
     color: white;
   }
-  
+    
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
@@ -69,4 +69,8 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
+
+  .textArea{
+    resize: horizontal;
+    width: 100%;
+  }
